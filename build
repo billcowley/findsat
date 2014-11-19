@@ -1,0 +1,2 @@
+gcc kiss_fft.c findsat.c -Wall -O2 -o findsat -lm `pkg-config --cflags --libs gtk+-2.0 librtlsdr`
+
